@@ -5,7 +5,7 @@ RESTful API, using Test-Driven Development. The API itself will follow RESTful d
 ## Development Requirements
 
 *  [Docker](https://docs.docker.com/get-started/).
-*   [Docker](https://docs.docker.com/compose/gettingstarted/).
+*   [Docker Compose](https://docs.docker.com/compose/gettingstarted/).
 
 ## Local development
 
