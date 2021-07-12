@@ -14,7 +14,7 @@
 
 * Now you can open your browser and interact with these URLs:
 
-Navigate to http://localhost:8009/ to view the welcome screen.
+Navigate to http://localhost:8009/ping to check the app is running.
 
 * Bring down the development containers
 
