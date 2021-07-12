@@ -15,3 +15,7 @@
 * Now you can open your browser and interact with these URLs:
 
 Navigate to http://localhost:8009/ to view the welcome screen.
+
+* Bring down the development containers
+
+`docker-compose down -v`
