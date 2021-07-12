@@ -25,3 +25,7 @@ Navigate to http://localhost:8009/ to view the welcome screen.
 * Run the migrations:
 
 `docker-compose exec movies python manage.py migrate --noinput`
+
+* Run the tests:
+
+`docker-compose exec movies pytest`
