@@ -1,3 +1,7 @@
+## About this project
+
+RESTful API, using Test-Driven Development. The API itself will follow RESTful design principles, using the basic HTTP verbs: GET, POST, PUT, and DELETE.
+
 ## Development Requirements
 
 *  [Docker](https://www.docker.com/).
@@ -6,7 +10,7 @@
 
 * Build the image
 
-`docker build -t catalog-api backend`
+`docker-compose build`
 
 *  Once the build is done, fire up the container in detached mode:
 
