@@ -27,6 +27,10 @@ Navigate to http://localhost:8009/ping to check the app is running.
 
 ### Aditional commands
 
+* Create the migration:
+
+`docker-compose exec movies python manage.py makemigrations`
+
 * Run the migrations:
 
 `docker-compose exec movies python manage.py migrate --noinput`
