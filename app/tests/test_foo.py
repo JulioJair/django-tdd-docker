@@ -10,8 +10,14 @@ def test_hello_world():
 
 # client is a pytest-django helper fixture that provides an instance of django.test.Client.
 def test_ping(client):
+    # Given
+    # client
+
+    # When
     url = reverse("ping")
     response = client.get(url)
     content = json.loads(response.content)
+
+    # Then
     assert response.status_code == 200
     assert content["ping"] == "pong!"
